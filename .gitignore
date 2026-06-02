@@ -30,6 +30,6 @@ postgres_data/
 frontend/
 
 # Backend routes ignore
-backend/routes/
-backend/app/routes/
-backend/app/routers
+backend/app/routers/customers.py
+backend/app/routers/orders.py
+backend/app/routers/dashboard.py
