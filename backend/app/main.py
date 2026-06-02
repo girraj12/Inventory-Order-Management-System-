@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .database import Base, engine
 from .config import settings
-from .routers import products
+from .routers import products, customers, orders, dashboard
 
 Base.metadata.create_all(bind=engine)
 
@@ -21,3 +21,6 @@ def health_check():
     return {"status": "ok"}
 
 app.include_router(products.router)
+app.include_router(customers.router)
+app.include_router(orders.router)
+app.include_router(dashboard.router)
