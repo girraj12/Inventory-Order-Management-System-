@@ -25,6 +25,3 @@ build/
 
 # Docker/Postgres
 postgres_data/
-
-# Frontend complete ignore
-frontend/
