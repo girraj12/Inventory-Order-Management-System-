@@ -15,6 +15,11 @@ Full-stack assessment project using React, FastAPI, PostgreSQL, Docker and Docke
 - Responsive React UI
 - PostgreSQL persistence using Docker named volume
 
+
+## API Testing
+
+Postman collection is available in the `postman` folder for testing all APIs.
+
 ## Tech Stack
 
 - Backend: Python FastAPI
